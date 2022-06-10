@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<style>
+  *{
+    margin: 0;
+  }
+  /* .addcl{
+    opacity: 0;
+
+  }
+  .addcl.bule{
+    opacity: 1 !important;
+    -moz-transform: translate(0px, -10px);
+    -webkit-transform: translate(0px, -10px);
+    -o-transform: translate(0px, -10px);
+    -ms-transform: translate(0px, -10px);
+    transform: translate(0px, -10px);
+    transition: all .5s;
+    top:418px; 
+  } */
+</style>
+<body>
+<img src="map/masterplan-map.jpg" border="0" usemap="#muscat-sitemap" />
+<map name="muscat-sitemap" id="muscat-sitemap">
+  <area shape="circle"  coords="442,334,10" href="#" alt="Zaha" onmouseover="openCordinateImage('Zaha')" />
+  <area shape="circle"  coords="345,366,10" href="#" alt="Zaha Amenities" onmouseover="openCordinateImage('ZahaAmenity')"  />
+  <area shape="circle"  coords="272,440,9" href="#" alt="village-square" onmouseover="openCordinateImage('vilSquare')"   />
+  <area shape="circle"  coords="63,494,10" href="#" alt="exp-center" onmouseover="openCordinateImage('ExpCenter')"  />
+  <area shape="circle"  coords="662,383,9" href="#" alt="Nameer" onmouseover="openCordinateImage('nameer')"  />
+  <area shape="circle"  coords="948,327,8" href="#" alt="jumeirah" onmouseover="openCordinateImage('juMeirah')" />
+  <area shape="circle"  coords="1194,398,10" href="#" alt="Wajd" onmouseover="openCordinateImage('Wajd')"  />
+</map>
+<img class="map-popu-show" src="map/nameer.png" data-toggle="modal" data-target="#videoModal"  style="position: absolute;z-index: 999;top: 418px;left: 539px;opacity: 1;display: none;"  id="nameer"/>
+<img class="map-popu-show" src="map/zaha.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:164px; left: 307px;"  id="Zaha"/>
+<img class="map-popu-show" src="map/zaha-amenities.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:145px; left: 50px;"  id="ZahaAmenity"/>
+<img class="map-popu-show" src="map/experience-center.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:527px; left: 34px;"  id="ExpCenter"/>
+<img class="map-popu-show" src="map/village-square.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:471px; left: 252px;"  id="vilSquare"/>
+<img class="map-popu-show" src="map/jumeirah.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:152px; left: 773px;"  id="juMeirah"/>
+<img class="map-popu-show" src="map/wajd.png" data-toggle="modal" data-target="#videoModal" style="display:none; position:absolute; z-index:999; top:432px; left: 972px;"  id="Wajd"/>
+
+
+<!-- Modal -->
+<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" style="height: 100%;display: flex;align-items: center;" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="position: absolute;z-index: 9;right: 0;border: 0;background: #0000;">
+       
+        <button type="button" class="close" style="position: absolute;padding: 4px 9px;top: 0px;display: flex;align-items: center;background: #000;color: red;justify-content: center;opacity: 1;border-radius: 100px;" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/CmzKQ3PSrow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function openCordinateImage(id)
+{
+  $('.map-popu-show').hide();
+  $( "#"+id ).show( "slow", function() {});
+}
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

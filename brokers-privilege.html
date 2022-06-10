@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.ico">
+    <title>Muscat Bay</title>
+    <meta name="Resource-type" content="Document" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/fullpage.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+    <link href="css/semantic.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/slick.min.css" rel="stylesheet" />
+    <link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link href="css/slick-theme.min.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+
+</head>
+
+<body class="short-stay" onload="myfunction()">
+    <div id="loading">
+        <img id="loading-image" src="images/muscatbayloader.gif" alt="Loading Muscat Bay..." />
+    </div>
+    <!-- <a href="javascript:void(0);" id="home" class="scroll-top" title="Go to top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </a> -->
+
+    <header>
+        <div class="header no-fixd">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light gppdn">
+                    <a class="navbar-brand m_brand" id="home" href="javascript:void(0);" data-aos="fade-down"
+                        data-aos-duration="1000"><img src="images/logo-white.png" class="m_flud_img"></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class=" navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active " data-aos="fade-down" data-aos-duration="1000">
+                                <a class="nav-link" id="comunity" href="javascript:void(0);"><span
+                                        id="a">Community</span><span id="b">Residential Zones</span></a>
+                               
+                            </li>
+                            <li class="nav-item" data-aos="fade-down" data-aos-duration="1500">
+                                <a class="nav-link " id="shortstays" href="javascript:void(0);"><span id="a">Short Stays
+                                    </span><span id="b">Short Stays </span></a>
+                            </li>
+                            <li class="nav-item dropdown" data-aos="fade-down" data-aos-duration="2000">
+                                <a class="nav-link dropbtn" id="hospitality" href="javascript:void(0);"><span
+                                        id="a">Hospitality</span><span id="b">Jumeirah</span></a>
+                                        <div class="dropdown-content">
+                                            <a href="#"> Residents Club</a>
+                                            <a href="#"> Exclusive Deals</a>
+                                        </div>
+                            </li>
+                            <li class="nav-item dropdown" data-aos="fade-down" data-aos-duration="2500">
+                                <a class="nav-link dropbtn " id="culture" href="javascript:void(0);"><span
+                                        id="a">Activities</span><span id="b">Entertainment</span></a>
+                                        <div class="dropdown-content">
+                                            <a href="#">Events</a>
+                                            <a href="#">Leisure</a>
+                                            <a href="#">Activities</a>
+                                            <a href="#">Dining</a>
+                                        </div>
+                            </li>
+                            <li class="nav-item dropdown" data-aos="fade-down" data-aos-duration="3000">
+                                <a class="nav-link dropbtn" id="investment" href="javascript:void(0);">
+                                    <span  id="a">Investment</span><span id="b">Investment</span></a>
+                                    <div class="dropdown-content">
+                                        <a href="#">Why Oman</a>
+                                        <a href="#">Why Muscat Bay</a>
+                                        <a href="#">Sales Outlets</a>
+                                        <a href="#">RoadShow</a>
+                                    </div>
+                            </li>
+                            <li class="nav-item icn" data-aos="fade-down" data-aos-duration="4000">
+                                <a class="nav-link" href="javascript:void(0);"><i class="fa fa-user-circle-o"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item icn" data-aos="fade-down" data-aos-duration="4500">
+                                <a class="nav-link" href="tel:+968 2485 7070"><i class="fa fa-phone"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item icn" data-aos="fade-down" data-aos-duration="5000">
+                                <a class="nav-link" id="maps" href="javascript:void(0);"><i class="fa fa-map-marker"
+                                        aria-hidden="true"></i></a>
+                            </li>
+                            <li class="nav-item icn" data-aos="fade-down" data-aos-duration="5000">
+                                <a class="nav-link search-box"  href="javascript:void(0);">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                </a>
+                                <div class="search-box-frm form">
+                                    <input type="text" placeholder="Search Here" class="input">
+                                </div>
+                            </li>
+                        </ul>
+
+
+                    </div>
+                </nav>
+
+
+                <div class="langu-destop mobile-hide"> 
+                    <a href="javascript:void(0);" class="act-lan">EN </a> | <a href="#">AR</a>
+                </div>
+
+                <div id="myNav" class="mobile-header">
+                    <div class="top-area">
+                        <a class="menu flx-grow" onclick="openNav()" href="javascript:void(0);">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </a>
+
+                        <div class="langu"> 
+                            <a href="javascript:void(0);" class="act-lan">EN </a> | <a href="#">AR</a>
+                        </div>
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                            <a class="nav-link pl dropdown-s" href="#" id="Community">
+                                Community <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div id="sub-menu" class="dropdown-menu-st">
+                                <a class="dropdown-item" href="#">Park Life</a>
+                                <a class="dropdown-item" href="#">Sky Life</a>
+                                <a class="dropdown-item" href="#">Bay Life</a>
+
+                                <a class="dropdown-item" href="#">Island Life</a>
+                                <a class="dropdown-item" href="#">Sensorial Life</a>
+                            </div>
+
+                            <a href="#" class="pl"> Short Stays</a>
+                            <a class="nav-link pl dropdown-s" href="#" id="Jumeirah">
+                                Jumeirah <i class="fa fa-angle-down" aria-hidden="true"></i>
+                            </a>
+                            <div id="sub-menu-juh" class="dropdown-menu-st">
+                                <a class="dropdown-item" href="#"> Residents Club</a>
+                                <a class="dropdown-item" href="#"> Exclusive Deals</a>
+                            </div>
+
+
+
+                            <a href="#" class="nav-link pl dropdown-s" id="Culture"> Culture <i class="fa fa-angle-down"
+                                    aria-hidden="true"></i></a>
+                            <div id="sub-menu-cultur" class="dropdown-menu-st">
+                                <a class="dropdown-item" href="#">Events</a>
+                                <a class="dropdown-item" href="#">Leisure</a>
+                                <a class="dropdown-item" href="#">Activities</a>
+                                <a class="dropdown-item" href="#">Dining</a>
+                            </div>
+
+                            <a href="#" class="nav-link pl dropdown-s" id="Investment"> Investment <i
+                                    class="fa fa-angle-down" aria-hidden="true"></i></a>
+                            <div id="sub-menu-invest" class="dropdown-menu-st">
+                                <a class="dropdown-item" href="#">Why Oman</a>
+                                <a class="dropdown-item" href="#">Why Muscat Bay</a>
+                                <a class="dropdown-item" href="#">Sales Outlets</a>
+                                <a class="dropdown-item" href="#">RoadShow</a>
+                            </div>
+
+                            <div class="menu-sciol-icon">
+                                <a class="nav-link last-item" href=""><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></a>
+
+                            <a class="nav-link last-item"><i
+                                    class="fa fa-instagram" aria-hidden="true"></i></a>
+                                    <a class="nav-link last-item"><i
+                                        class="fa fa-twitter" aria-hidden="true"></i></a>
+                            </div>
+                            <a class="whatshap">
+                                <img src="images/whatsapp.png" class="img-fluid" alt=""> 
+                                <h4>Chat with Us</h4>
+                            </a>
+                        </div>
+                        <a href="#" class="flx-grow"><img src="images/logo-white.png" class="m_flud_img"></a>
+                        <!-- <span>&nbsp;</span> -->
+                        <div class="icon-contaner">
+                            <a class="nav-link last-item" href="tel:+968 2485 7070"><i class="fa fa-phone"
+                                    aria-hidden="true"></i></a>
+
+                            <a class="nav-link last-item" id="maps" href="javascript:void(0);"><i
+                                    class="fa fa-map-marker" aria-hidden="true"></i></a>
+                            <a class="nav-link last-item search-box" href="javascript:void(0);">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                        
+                            </a>
+                            <div class="search-box-frm form">
+                                <input type="text" placeholder="Search Here" class="input">
+                            </div>
+                        </div>
+                    </div>
+                    <section class="regular slider slick-arrow-1">
+                        <div>
+                            <a class="nav-link" id="comunity" href="javascript:void(0);"><span
+                                    id="a">Community</span><span id="b">Residential Zones</span></a>
+                        </div>
+                        <div>
+                            <a class="nav-link " id="shortstays" href="javascript:void(0);"><span id="a">Short Stays
+                                </span><span id="b">Short Stays </span></a>
+                        </div>
+                        <div>
+                            <a class="nav-link" id="hospitality" href="javascript:void(0);"><span
+                                    id="a">Hospitality</span><span id="b">Jumeirah</span></a>
+                        </div>
+                        <div>
+                            <a class="nav-link" id="culture" href="javascript:void(0);"><span id="a">Culture</span><span
+                                    id="b">Entertainment</span></a>
+                        </div>
+                        <div>
+                            <a class="nav-link" id="investment" href="javascript:void(0);"><span
+                                    id="a">Investment</span><span id="b">Investment</span></a>
+                        </div>
+
+                    </section>
+                </div>
+            </div>
+        </div>
+
+        <!-- <ul class="social">
+            <hr class="line_top" data-aos="fade-down" data-aos-duration="3000">
+            <li data-aos="fade-down" data-aos-duration="2000"><a href="#"><img src="images/youtube.png"></a> </li>
+            <li data-aos="fade-down" data-aos-duration="1500"><a
+                    href="https://twitter.com/muscatbay?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><img
+                        src="images/twitter.png"></a></li>
+            <li data-aos="fade-down" data-aos-duration="1000"><a href="https://www.facebook.com/MuscatBay/"><img
+                        src="images/facebook.png"></a></li>
+            <hr class="line_bottom">
+        </ul> -->
+
+    </header>
+
+    <div class="guests-book bg-img borker-priv">
+        
+    </div>
+    <section class="brkr-prvlg">
+        <div class="container">
+            <div class="row">
+               <div class="col-lg-8">
+                <h2> welcome to</h2>
+                <h4> brokers privilege club</h4>
+               </div>
+               <div class="col-lg-4 text-lg-right">
+                    <h6>Hello Broker <span>(Name)</span> </h6>
+               </div>
+               <div class="col-lg-12">
+                   <p>
+                    Ausce tincidunt tortor urna, vel molestie purus fermentum nec. 
+                    Ut laoreet, magna id hendrerit dictum, quam lorem feugiat eros, 
+                    vel rhoncus quam felis at magna. Donec fermentum metus a ex rhoncus.
+                   </p>
+               </div>
+               <div class="col-lg-12">
+                   <h3>Category 1</h3>
+                   <hr>
+                   <ul class="img-upload">
+                       <li>
+                           <img src="images/doc.png"  alt="">
+                           <h5>Tortor Urna</h5>
+                       </li>
+                       <li>
+                        <img src="images/pdf.png" alt="">
+                        <h5>Consectetur </h5>
+                    </li>
+                   </ul>
+               </div>
+               <div class="col-lg-12">
+                <h3>Category 2</h3>
+                <hr>
+                <ul class="img-upload">
+                    <li>
+                        <img src="images/doc.png"  alt="">
+                        <h5>Tortor Urna</h5>
+                    </li>
+                    <li>
+                     <img src="images/pdf.png" alt="">
+                     <h5>Consectetur </h5>
+                 </li>
+                </ul>
+            </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-bottom">
+
+            <div class="post-ab position-relative">
+                <div class="footer-midil">
+                    <h3> SIGN UP TO OUR NEWSLETTER</h3>
+                    <div class="subfrm">
+                        <form>
+
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+
+                                    <input type="text" class="form-control rounded-0" id="Name" placeholder="Name"
+                                        required>
+                                </div>
+
+                                <div class="form-group col-md-4">
+
+                                    <input type="" class="form-control rounded-0" id="inputEmail" placeholder="Email"
+                                        required>
+                                </div>
+                                <div class="form-group col-md-4">
+
+                                    <button type="submit" class="btn sdnbtn w-100 rounded-0">subscribe</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-contan">
+
+                    <ul class="socal">
+                        <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li> <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    </ul>
+                    <h4>
+                        <a href="#"> +968 2485 7070</a>
+                    </h4>
+                    <h5>
+                        <a href="http://">info@muscatbay.com</a>
+                    </h5>
+                    <ul class="trem">
+                        <li><a href=""> About Muscat Bay </a></li>
+                        <li><a href=""> Contact Us</a></li>
+                        <li><a href=""> Privacy Policy</a></li>
+                        <li><a href=""> Terms & Conditions</a></li>
+                    </ul>
+                    <p class="copright">© Copyright 2022 - muscatbay.com All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script src="js/semantic.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/intlTelInput.js"></script>
+    <script>
+        // Vanilla Javascript
+        var input = document.querySelector("#phone");
+        window.intlTelInput(input, ({
+            // options here
+        }));
+
+        $(document).ready(function () {
+            $('.iti__flag-container').click(function () {
+                var countryCode = $('.iti__selected-flag').attr('title');
+                var countryCode = countryCode.replace(/[^0-9]/g, '')
+                $('#phone').val("");
+                $('#phone').val("+" + countryCode + " " + $('#phone').val());
+            });
+        });
+
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("mySidebar").style.width = "60%";
+            // document.getElementById("main").style.marginLeft = "60%";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidebar").style.width = "0";
+            // document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+ <script>
+        
+    $(document).on('click', '.dropdown-menu-st', function (e) {
+        //e.stopPropagation();
+    });
+
+    if ($(window).width() < 992) {
+        $('.dropdown-s').click(function (e) {
+            e.preventDefault();
+
+            
+            $('.dropdown-menu-st').not($(this).next('.dropdown-menu-st')).removeClass("intro");
+            //$('.dropdown-menu-st').not($(this)).removeClass("intro");
+            $('.dropdown-s').removeClass("rotate");
+            
+                
+
+            if($(this).next('.dropdown-menu-st').hasClass("intro"))
+            {
+
+                $(this).next('.dropdown-menu-st').removeClass("intro");
+                $(this).removeClass("rotate");
+                
+            } 
+            else 
+            {
+                $(this).next('.dropdown-menu-st').addClass("intro");
+
+                $(this).addClass("rotate");
+
+            }
+            
+        });
+    }
+</script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $(".regular-icon").slick({
+                dots: true,
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                arrows: true
+            });
+        });
+    </script>
+
+</body>
+
+</html>

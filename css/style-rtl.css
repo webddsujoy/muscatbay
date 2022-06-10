@@ -1,0 +1,812 @@
+@font-face {
+    font-family: 'GESS BOLD';
+    src: url('GESSTwoBold-Bold.woff2') format('woff2'),
+        url('GESSTwoBold-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GESS MEDIUM';
+    src: url('GESSTwoMedium-Medium.woff2') format('woff2'),
+        url('GESSTwoMedium-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'GESS LIGHT';
+    src: url('GESSTwoLight-Light.woff2') format('woff2'),
+        url('GESSTwoLight-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+    font-family: 'GESS MEDIUM';  
+    letter-spacing: normal;
+}
+h1, h2, h3, h4, h5, h6{font-family: 'GESS MEDIUM';letter-spacing: normal; }
+ul, li, p, span, label{font-family: 'GESS LIGHT'; letter-spacing: normal;}
+textarea, input {
+    text-align: right;
+}
+label {
+    direction: rtl;
+    text-align: right;
+}
+.footer-contan h4{
+    direction: ltr;
+}
+.fp-viewing-shortstays .section .jnrh-box{
+    display: none !important;
+}
+.footer-contan h5 a{
+    font-family: 'Montserrat', sans-serif;
+}
+.dining-header .dining-conainer h4{
+    letter-spacing: normal;
+}
+.dining-header .dining-conainer h2{
+    letter-spacing: normal;
+}
+.spand-area .spand-container h2{
+    letter-spacing: normal;
+}
+.restaurants .rows-style .items-sty .img-area p{
+    text-align: right;
+}
+.leisure-header .leisure-conainer h4{
+    letter-spacing: normal;
+}
+.leisure-header .leisure-conainer h2{
+    letter-spacing: normal;
+}
+.leisure-abundance .abundance-area-bottom{
+    padding-left: 15%;
+}
+.leisure-abundance .abundance-area-bottom{
+    padding-right:auto;
+}
+.clubhous-about .carousel-caption {
+    width: 100%;
+    left: 0;
+    right: 0;}
+.wpml-ls-legacy-list-horizontal a span{
+    font-family: 'GESS MEDIUM';
+}
+.wpml-ls-legacy-list-horizontal a span[lang="en"]{
+    font-family: 'Montserrat', sans-serif;
+}
+.activites-header .activites-conainer h4{
+    letter-spacing: normal;
+}
+.activites-header .activites-conainer h2{
+    letter-spacing: normal;
+}
+.oman-header .oman-conainer h4{
+    letter-spacing: normal;
+}
+.oman-header .oman-conainer h2{
+    letter-spacing: normal;
+}
+.footer-right-area {
+    width: calc(100% - 10vw);
+}
+.header .navbar .navbar-nav .nav-item .nav-link{
+    font-family: 'GESS MEDIUM';
+}
+.footer-right-area h2{
+    text-align: right;
+}
+.footer-right-area .form-group {
+    text-align: end;
+}
+.footer-right-area .form-row {
+    flex-direction: row-reverse;
+}
+.dspl-flx{
+    flex-direction: row-reverse;
+}
+ul.icon-sty li {
+    text-align: end;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-bottom .icon-sty{
+    flex-direction: row-reverse;
+}
+.swim .absulid-container h2{
+    text-align: right;
+}
+.country-select.inside input, .country-select.inside input[type=text]{
+    padding-left: 42px;
+}
+
+    .clubhous-about.baylif-section-2 .bedroom-villas .price-box{
+        padding-right: calc(6vw);
+    }
+    .clubhous-about.baylif-section-2 .bedroom-villas .bottom-box ul.price-table li {
+        text-align: right;
+        direction: ltr;
+    }
+    .clubhous-about.baylif-section-3 .bedroom-villas .price-box{
+        padding-right: calc(6vw);
+    }
+    .clubhous-about.baylif-section-3 .bedroom-villas .bottom-box ul.price-table li {
+        text-align: right;
+        direction: ltr;
+    }
+    .clubhous-about.baylif-section-3 .bedroom-villas .nav.nav-pills {
+        justify-content: flex-start;}
+    .clubhous-about.baylif-section-4 .bedroom-villas .price-box{
+        padding-right: calc(6vw);
+    }
+    .clubhous-about.baylif-section-4 .bedroom-villas .bottom-box ul.price-table li {
+        text-align: right;
+        direction: ltr;
+    }
+    section.contact-form .footer-right-area {
+        width: calc(100% - 6vw);
+    }
+    section.contact-form .footer-right-area {
+        width: calc(100% - 2vw);
+    }
+    .clubhous-about.baylif-section-4 .bedroom-villas .nav.nav-pills {
+        justify-content: flex-start;}
+.langu-destop .wpml-ls-legacy-list-horizontal a{
+    border-right: 0;
+}
+.langu-destop .wpml-ls-legacy-list-horizontal .wpml-ls-last-item a {
+    padding-right: 2vw;
+}
+.langu-destop .wpml-ls-legacy-list-horizontal .wpml-ls-last-item a {
+    padding-left: 2.3vw;
+}
+.accordion .high-life .text.img-area-style h2{
+    letter-spacing: normal;
+    text-align: right;
+}
+.accordion .bay-life .text.img-area-style .offset-lg-9{
+    margin-right: 75%;
+    margin-left: auto;
+}
+.accordion .text h2{
+    letter-spacing: normal;
+}
+.accordion .text h3{
+    letter-spacing: normal;
+}
+.accordion .box .ac-box h4{
+    letter-spacing: normal;
+}
+.contstyle h3{
+    letter-spacing: normal;
+}
+.contstyle h2{
+    letter-spacing: normal;
+}
+.contstyle h4{
+    letter-spacing: normal;
+}
+.maptext{
+    left: initial;
+    right: 10%;
+    text-align: right;
+}
+.footer-left-area h2{
+    text-align: right;
+}
+.aqua-life .area-live-aq h3{
+    letter-spacing: normal;
+    padding-right: 0;
+}
+.aqua-life .area-live-aq{
+    align-items: flex-end;
+}
+
+.parklife .area-live-aq h3{
+    letter-spacing: normal;
+    padding-right: 0;
+}
+#fullpage .section .banner-text{
+    text-align: right;
+}
+.banner-text .bg-btn li:nth-child(2) {
+    margin-right: calc(26vw + 0px);
+    margin-left: 0;
+}
+.sidebar{
+    right: 0;
+    left: initial;
+}
+.box.a2.parklife{
+    direction: ltr;
+}
+.box.a1.aqua-life{
+    direction: ltr;
+}
+.contact-form .row.height-100{justify-content: center;}
+.contact-form .row.height-100 .offset-lg-3.col-lg-6.right-bg{margin-left: 0!important;}
+.bedroom-villas .price-box .header-box h2{text-align: right;}
+.bedroom-villas .price-box .header-box {
+    padding-left: calc(2vw);
+    padding-right: 0;
+}
+.short-stay-main-content.single-property .bedroom-villas .bottom-box ul.price-table li h3{
+    display: flex;
+    gap: 5px;
+}
+.contact-form.propatri-contact .form-check{
+    padding: 0.3vw 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.contact-form.propatri-contact input[type=checkbox]{
+    position: relative;
+}
+.contact-form.propatri-contact .wpcf7-list-item{
+    margin: 0 0 0px 25px;
+}
+.short-stay-main-content.single-property ul.brdcm{
+    margin-right: 11vw;
+    margin-left: auto;
+}
+.bedroom-villas.general-property .bottom-box ul.price-table li{text-align: right;direction: ltr;}
+.bedroom-villas .nav-pills .nav-link{margin-right: 0; margin-left: calc(1vw);}
+.bedroom-villas.general-property .btmtxt{text-align: right;}
+.bottom-box .row .col-lg-4.mb-2{
+    text-align: right;
+}
+[dir=rtl] .slick-prev{
+    right: inherit;
+    left: -25px;
+}
+[dir=rtl] .slick-next {
+    right: -25px;
+    left: inherit;
+}
+.bbq.bbq-item  .slick-next {
+    right: inherit !important;
+}
+
+.breathe .slick-next{
+    top: 91% !important;
+    right:85% !important;
+} 
+.breathe .slick-prev{
+    top: 91% !important;
+    left: 20% !important;
+}
+.breathe .breathe-container .row {
+    justify-content: center;
+}
+.breathe .breathe-container .row .offset-md-1{
+    margin-left: 0;
+}
+.breathe .breathe-container .row .col-lg-6.pl-md-0{
+    padding-left: 15px !important;
+    padding-right: 0 !important;
+}
+.breathe .breathe-container .row .col-lg-6.pr-md-0{
+    padding-left: 0px !important;
+    padding-right: 15px !important;
+}
+.breathe .slick-list.draggable {
+    height: 100% !important;
+}
+
+.swim .slick-next{
+    right: 60% !important;
+}
+.swim .slick-prev{
+    right: 48% !important;
+}
+
+.swim .swimabsulid-container .slick-slide[aria-hidden="true"] .swim-container-txt{
+    display: none;
+}
+.inner-aqu .row.height-100{
+    direction: ltr;
+}
+.spand-area .slick-prev i.fa.fa-angle-left {
+    margin-right: 1%;
+}
+.spand-area .col-item{text-align: right;}
+.short-stay-main-content .details-box .details-box-content {
+    padding: 0px 15px 0;
+}
+.short-stay-main-content input[type=checkbox]{
+    margin-left: 0.3em;
+    margin-right: 0;
+}
+.short-stay-main-content .details-box h4{
+    padding: 10px 20px 0px 20px;
+    text-align: right;
+}
+.guests-book .room-box .ui.form .field>label{
+    left: 0;
+}
+.unk-expepience .prev{
+    right: 15%;
+    left: inherit;
+}
+.unk-expepience .next{
+    right: 10%;
+    left: inherit;
+}
+.unk-expepience .text{
+    text-align: right;
+}
+.mountains-meet .mountains-container .mountains-right-contain h2{
+    text-align: right;
+}
+.brokers-privilege h1 {
+    text-align: right;}
+.footer-left-area p {
+    text-align: right;
+}
+.brokers-privilege h3{
+    text-align: right;
+}
+.img-overlay{
+    left: 0;
+}
+.lovely-weather .opsiton .lovel-img-area h2{
+    text-align: right;
+    right: inherit;
+    font-family: 'GESS LIGHT';
+}
+.leisure-embrace .leisure-embrace-container h2{
+    text-align: right;
+}
+section.culture-oman.residents-club-about .facilities h2.heding{
+    text-align: right;
+}
+section.culture-oman.residents-club-about .facilities ul{
+    text-align: right;
+}
+.residents-club-about .img-area-container-club{
+    margin-right: auto;
+    padding-left: 2vw;
+    margin-left: inherit;
+    padding-right: initial;
+}
+.inner-aqu .left-sub-content p:after{
+    content: '\A';
+    white-space:pre;
+}
+.inner-aqu .left-sub-content p{
+    display: inline;
+    line-height: 1.6;
+}
+.inner-aqu .left-sub-content p:nth-child(4){
+    opacity: 1;
+}
+.header .navbar .navbar-nav .nav-item .nav-link span{
+    font-family: 'GESS MEDIUM';
+}
+.banner-text h3{
+letter-spacing: normal;
+}
+.banner-text h2{
+    letter-spacing: normal;
+}
+.banner-text h4{
+    letter-spacing: normal;
+}
+.banner-text h1.cnt-pg{
+    letter-spacing: normal;
+}
+.residents-club-about .sub-contain ul{
+    text-align: right;
+    letter-spacing: normal;
+    margin-right: 2.2vw;
+    margin-left: auto;
+}
+section.culture-oman.residents-club-about .facilities .offset-lg-2 {
+    margin-right: 16.666667%;
+    margin-left: auto;
+}
+section.culture-oman.residents-club-about .facilities ul li p span i.fa{
+    transform: rotate(180deg);
+}
+.experience .container-experience-sty .card-exp.left-card {
+    padding-right: 0;
+}
+.experience .container-experience-sty h2{
+    text-align: right;
+}
+.bedroom-villas .bottom-box ul.price-table li p{
+    direction: rtl;
+}
+.jnrh-box .e-deal {
+    margin-right: 20px;
+    margin-left: 0;
+}
+.inner-aqu .left-site-content h2{
+    width: 40vw;
+    text-align: right;
+}
+.cmscontent ol{
+    padding: 30px 0 5px;
+    margin-right: 2.7vw;
+    font-weight: 600;
+}
+.contact-header .contact-conainer h4{
+    letter-spacing: normal;
+}
+.contact-header .contact-conainer h2{
+    letter-spacing: normal;
+}
+.contact-detalis .offset-lg-3 {
+    margin-right: 25%;
+    margin-left: auto;
+}
+.contact-detalis .heading h2{
+    text-align: right;
+}
+.contact-detalis .card-box-header h3{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+}
+.contact-detalis .card-box-body .row-s-hlp{
+    text-align: right;
+}
+.bedroom-villas .bottom-box ul.price-table li{
+    text-align: right;
+}
+.short-stay-main-content .room-box .room-text-content .room-text .room-text-content p{
+    text-align: right;
+}
+.short-stay-main-content .room-box .room-text-content .room-text .room-text-content h4{
+    text-align: right;
+}
+.short-stay-main-content .room-box .room-text-content .room-text .room-text-content h3{
+    text-align: right; 
+}
+.short-stay-main-content .room-box .room-text-content .room-text .room-text-content{
+    padding-right: 0;
+}
+.island .text.img-area-style h4{
+    text-align: right;
+    letter-spacing: normal;
+}
+.ordinaire .text.img-area-style h4{
+    margin-right: 1.8vw;
+    letter-spacing: normal;
+}
+.ordinaire.parklife .bttn_styl.drk{
+    margin-right: 2vw;
+}
+.parklife .area-live-aq{
+    align-items: flex-end;
+}
+
+.bay-mb{
+    text-align: right !important;
+}
+h4.fnt-ml {
+    margin-right: max(4.7rem);
+    margin-left: 0;
+}
+.inner-aqu.baylif-section-1.sky-garden .card-bay-body h4{
+    line-height: 1;
+}
+.inner-aqu.baylif-section-1.sky-garden.sensorial .card-bay-body h4 {
+    color: #fff;
+    text-align: right;
+    width: 34vw;
+}
+.inner-aqu.baylif-section-1.sky-garden.nameer .card-bay-body h4 {
+   
+    text-align: right;
+    width: 34vw;
+}
+.inner-aqu.baylif-section-1.sky-garden .card-bay-body h4 {
+   
+    text-align: right;
+    width: 34vw;
+}
+.inner-aqu.baylif-section-1 .card-bay-body h4{
+    display: inline;
+    margin-right: 0;
+}
+.inner-aqu.baylif-section-1.sky-garden .card-bay-body h4{
+    display: block;
+    margin-right: 0;
+}
+.inner-aqu.baylif-section-1 .card-bay-body h4 {
+   
+    text-align: right;
+    width: 34vw;
+}
+.eventpage .tribe-events .tribe-events-c-top-bar__nav-list{
+    direction: ltr;
+}
+.eventpage .tribe-common--breakpoint-medium.tribe-events .tribe-events-header__events-bar{
+    margin-left: 0;
+}
+.eventpage .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-view-selector__button{
+    padding-left: 0;
+}
+.eventpage .tribe-events .tribe-events-c-top-bar__nav-list-item{
+    padding-left: 15px;
+    padding-right: 0;
+}
+.eventpage .tribe-common--breakpoint-medium.tribe-events .tribe-events-c-top-bar__today-button{
+    margin-left: 15px;
+    margin-right: 0;
+}
+.eventpage .tribe-events .tribe-events-c-nav__list{
+    direction: ltr;
+}
+.eventpage .tribe-events .tribe-events-c-top-bar__datepicker-container{
+    right: 0;
+}
+.eventpage .tribe-common--breakpoint-medium.tribe-events .datepicker{
+    left: 0!important;
+}
+.eventpage .tribe-common--breakpoint-medium.tribe-common .tribe-common-g-row--gutters>.tribe-common-g-col{
+    text-align: right;
+}
+.eventpage .tribe-events .tribe-events-calendar-list__month-separator:after{
+    margin-right: 20px;
+    margin-left:0;
+}
+.eventpage .tribe-events-single{
+    text-align: right;
+}
+.eventpage .tribe-events-single .tribe-events-sub-nav{
+    direction: ltr;
+}
+.eventpage .tribe-events-meta-group{
+    margin-right: 0;
+}
+.bbq.bbq-item .card-box-style .card-box-body{
+    text-align: right;
+}
+.breathe .containe-box{
+    text-align: right;
+}
+.play .play-container .backgout-play .single-item{
+    text-align: right;
+}
+.swim .swim-container-txt{
+    text-align: right;
+}
+
+@media only screen and (max-width: 2560px){
+.langu-destop {
+    left: 8%;
+}
+}
+@media only screen and (max-width: 1920px){
+.langu-destop {
+    left: 9.9%;
+}
+}
+
+@media only screen and (max-width: 1680px){
+.langu-destop {
+    left: 6%;
+}
+.langu-destop .wpml-ls-legacy-list-horizontal .wpml-ls-last-item a {
+    padding-left: 4.3vw;
+}
+}
+@media only screen and (max-width: 1600px){
+    .langu-destop {
+        left: 6%;
+    }
+    .langu-destop .wpml-ls-legacy-list-horizontal .wpml-ls-last-item a {
+        padding-left: 2.3vw;
+    }
+}
+@media only screen and (max-width: 1440px){
+    .langu-destop {
+        left: 8.4%;
+    }
+    }
+@media only screen and (max-width: 1366px){
+.footer-right-area {
+    width: calc(100% - 5vw);
+}
+    .inner-aqu .left-sub-content p:nth-child(4) {
+        margin-left: calc(9vw);
+    }
+    .footer-right-area {
+        width: calc(100% - 8vw);
+    }
+.inner-aqu .left-sub-content p:nth-child(3) {
+        opacity: 1;
+    }
+.langu-destop {
+    left: 7.5%;
+}
+
+img.m_flud_img {
+    width: 125px;
+}
+}
+
+@media only screen and (max-width: 991px) {
+    .inner-aqu.sky-garden .left-sub-content p{
+        font-size: 15px;
+    }
+  
+    .inner-aqu.baylif-section-1 .left-sub-content p{
+        font-size: 14px;
+    }
+    .inner-aqu.baylif-section-1 .card-bay-header {
+        margin-left: 0px;
+        margin-right: auto;
+    }
+
+    .sidebar a.pl{
+        text-align: right;
+    }
+    .inner-aqu.baylif-section-1 .card-bay{
+        margin-right: 5vw;
+    align-items: flex-end;
+    }
+    .inner-aqu.baylif-section-1 .card-bay-body h4{
+        text-align: right;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.sensorial .card-bay-body h4 {
+        color: #fff;
+        text-align: right;
+        width: 95%;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.sensorial .card-bay-header{
+        margin-left: 22px;
+        margin-right: auto;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.sensorial .left-sub-content p:nth-child(1){
+        opacity: 1;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.nameer .card-bay-body h4 {
+        text-align: right;
+        width: 95%;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.nameer .card-bay-header{
+      
+        margin-left: 22px;
+        margin-right: auto;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.sensorial .card-bay-header{
+      
+        margin-left: 22px;
+        margin-right: auto;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.sky-garden .card-bay-header{
+      
+        margin-left: 0px;
+        margin-right: auto;
+    }
+    .inner-aqu.baylif-section-1.sky-garden.nameer .left-sub-content p:nth-child(1){
+        opacity: 1;
+    }
+    .dropdown-menu-st a.dropdown-item{
+        text-align: right;
+    }
+    .menu-sciol-icon {
+        justify-content: flex-start;
+        margin-right: 8px;
+    }
+    a.whatshap{
+        margin: 10px 8px 0 44px;
+    }
+    .home .slider-home .carousel-control-prev {
+        left: 5%;
+    }
+    .residents-club-about .sub-contain ul{
+        margin-right: 25px;
+    }
+    section.culture-oman.residents-club-about .facilities .offset-lg-2{
+        margin-right: 0;
+    }
+    .contact-detalis .offset-lg-3{
+        margin-right: 0;
+    }
+    .home .slider-home .carousel-control-next {
+        right: 75%;
+    }
+    .footer-bottom ul.icon-sty li h3{
+        text-align: right;
+    }
+
+    .breathe .containe-box{
+    height: auto;
+    padding: 7.5vw 7vw;
+}
+.parklife .area-live-aq{
+    align-items: flex-end;
+}
+.ordinaire.parklife .area-live-aq {
+    align-items: flex-start;
+}
+.island.parklife .area-live-aq {
+    align-items: flex-start;
+}
+.high-life.parklife .area-live-aq{
+    align-items: flex-start;
+}
+.bay-life.parklife .area-live-aq{
+    align-items: flex-start;
+}
+.home .slider-home .carousel-item:nth-child(1){
+    background-position-x: -68vw;
+}
+.home .slider-home .carousel-item:nth-child(3) {
+    background-position-x: -117vw;}
+    .aqua-life .mobile-accordin .area-live-aq{
+        padding-right: calc(1.7rem + 2px);
+    }
+    .parklife .mobile-accordin .area-live-aq{
+        padding-right: calc(1.7rem + 2px);
+    }
+.swim .slick-next, .swim .slick-prev{    width: 6.5vw;
+    height: 6.5vw;
+    top: 91%;}
+    .swim .slick-prev {
+        margin-right: 3vw;
+    }
+.breathe .breathe-container .row .offset-md-1 .row.mb-4 .col-lg-8{
+    margin-top: 30px;
+}
+    .icon-contaner {
+        left: 5px;}
+    ul.icon-sty li {
+        display: flex !important;
+    }
+    .footer-right-area {
+        width: calc(100% - 4vw);
+    } 
+    .icon-contaner{
+        left: 10%;
+        right: initial;
+    }   
+    .top-area .langu{
+        margin-right: 7vw;
+        margin-left: 0;
+    }
+    .langu .wpml-ls-first-item {
+        border-left: none;
+        border-right: 0;
+    }
+    a.menu.flx-grow{
+        padding-right:15px;
+        padding-left: 0;
+    }
+  
+    .banner-text .bg-btn li:nth-child(1) a{
+        margin-right: 0px;
+    }
+    .banner-text .bg-btn li:nth-child(2) {
+         margin-right: 0;
+    }
+    .inner-aqu .left-site-content{
+        padding-top: 28vh;
+        justify-content: start;
+        padding-right: 10px;
+    }
+    .inner-aqu .left-site-content h2 {
+        width: 100%;}
+        .inner-aqu.baylif-section-1.nameer .left-sub-content p{
+            font-size: 12px;
+        }
+}
+@media only screen and (max-width: 767px){
+.icon-contaner {
+    left: 10px;
+    right: initial;
+}
+.home .mobile-header .regular{
+    direction: ltr;
+}
+}
